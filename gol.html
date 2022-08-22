@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./gol.css" />
+    <title>Game of life</title>
+</head>
+
+<body>
+  
+
+    <div class="contenter">
+        
+        <div class="haeder">
+            <h1 class="title">Game Of Life</h1>
+
+        </div>
+
+
+        <div class="container-fluid">
+
+            <div class="button-container">
+                <button class="start-button">Stop</button>
+                <script src="Start & Stop Button/script.js"></script>
+                <button type="button" id="start-random">Start Random</button>
+               
+                <button type="button" id="reset-game">Reset</button>
+
+                <div class="pattern-container">
+                    <button type="button" id="pattern-1">Pattern 1</button>
+              
+
+                </div>
+            </div>
+
+            <div class="change-fr">You can change the game speed <input type="range" id="fr" name="speed" min="1"
+                    max="60" value="25">
+                </div>
+
+
+
+
+        </div>
+        <div class="rules-container">
+            <p>Change the die of loneliness</p><select class="form-select" id="die-select"
+                aria-label="Default select example">
+                <option selected>2</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <p>Change the die of overpopulation</p><select class="form-select" id="population-select"
+                aria-label="Default select example">
+                <option selected>3</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <p>Change new life due to reproduction</p><select class="form-select" id="reproduction-select"
+                aria-label="Default select example">
+                <option selected>3</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+        </div>
+
+        <div class=board-container>
+            <div id='canvas'></div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="gol.js"></script>
+</body>
+
+</html>

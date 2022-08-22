@@ -1,0 +1,108 @@
+
+
+
+.profile {
+    background: #3B0838;
+    /* text-align: center; */
+    padding: 30px 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    color: #F5B316;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+   
+
+}
+
+.user-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    margin: 25px;
+
+
+}
+
+#name-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.profile-icon {
+    border: 1px solid rgb(221, 207, 207);
+    width: 200px;
+    height: 300px;
+}
+
+.information-container {
+    border: 1px solid rgb(221, 207, 207);
+    width: 400px;
+    height: 500px;
+    left: 200px;
+    
+}
+
+
+.profile h3 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 20px;
+    margin: 25px;
+}
+
+.profile p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin: 25px;
+}
+
+#gameOfLife-link{
+    font-size: 20px;
+    margin-top: 5px;
+    margin: 25px;
+    color: #F5B316;
+}
+
+
+.contact-container{
+    border: 1px solid rgb(221, 207, 207);
+    vertical-align: bottom;
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+
+
+
+.header-container {
+    background-color: #3B0838;
+
+    height: 100px;
+}
+
+.header {
+   height: 50px; 
+    background-color: #F5B316;
+}
+
+.pt2-img{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    
+}
+
+.footer{
+    height: 100px; 
+    background-color: #F5B316;
+}
+
+.pt2 {
+
+    display: flex;
+
+}

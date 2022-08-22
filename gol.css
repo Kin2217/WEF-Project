@@ -1,0 +1,94 @@
+body {
+    background-color: #3B0838;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button-container {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    width: 500px;
+    color: #22DD43;
+    justify-content: space-evenly;
+    /* border: solid 2px #000; */
+}
+
+
+button {
+    color: #22DD43;
+    background-color: #3B0838;
+    border: #22DD43 solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 13px 11px;
+
+}
+
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #3B0838;
+    font-size: 4.5rem;
+    color: #22DD43;
+
+}
+
+
+
+.rules-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.form-select {
+    height: 40px;
+    width: 60px;
+    color: #22DD43;
+    background-color: #3B0838;
+    border: 1px solid;
+}
+
+.change-fr {
+    background-color: #3B0838;
+    color: #22DD43;
+    border: 1px solid #22DD43;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 13px 11px;
+
+}
+
+
+
+.form-select {
+    display: flex;
+}
+
+p {
+    color: #22DD43;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pattern-container {
+
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+}
